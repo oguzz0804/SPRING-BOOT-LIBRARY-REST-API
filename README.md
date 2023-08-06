@@ -9,14 +9,19 @@ All inputs and outputs use JSON format.
 **To open Swagger (interactive) API documentation, navigate your browser to server:port/swagger-ui.html**
 
 # application.properties for POSTGRESQL and SWAGGER
+
 **spring.datasource.url = jdbc:postgresql://localhost:5432/library_database** => **add your own database**
+
 **spring.datasource.username = [your_username]**
+
 **spring.datasource.password = [your_password]**
 
 **spring.jpa.properties.hibernate,dialect = org.hibernate.dialect.PostgreSQLDialect**
+
 **spring.jpa.hibernate.ddl-auto = update**
 
 **spring.datasource.driver-class-name=org.postgresql.Driver**
+
 **springdoc.swagger-ui.path=/swagger-ui.html**
 
 
